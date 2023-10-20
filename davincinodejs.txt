@@ -1,0 +1,18 @@
+import os
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+start_sequence = "start"
+restart_sequence = "restart"
+
+response = openai.Completion.create(
+  model="text-davinci-003",
+  prompt="",
+  temperature=0.02,
+  max_tokens=3212,
+  top_p=0.59,
+  best_of=20,
+  frequency_penalty=0,
+  presence_penalty=0
+)
