@@ -1,0 +1,13 @@
+curl https://api.openai.com/v1/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+  "model": "text-davinci-003",
+  "prompt": "",
+  "temperature": 0.02,
+  "max_tokens": 3212,
+  "top_p": 0.59,
+  "best_of": 20,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}'
