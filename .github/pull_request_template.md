@@ -2,35 +2,23 @@
 
 Briefly describe the changes and the goal of this PR. Make sure the PR title summarizes the changes effectively.
 
-## Changes
-
-List the major and minor changes.
-
-- Major Changes
-  - ...
-- Minor Changes
-  - ...
-
 ## Motivation
 
 Why are these changes necessary? How do they improve the cookbook?
 
-## Self Review Checklist
+---
 
-- [ ] Is the writing easily skimmable?
-  - Sections have informative titles.
-  - Key takeaways are upfront.
-  - Short paragraphs and topic sentences are used.
-- [ ] Is the writing quality high?
-  - Sentences are simple and unambiguous.
-  - Demonstrative pronouns are avoided or clearly referenced.
-  - No left-branching sentences.
-- [ ] Is the content universally helpful?
-  - Terminology is specific and avoids jargon.
-  - Provides solutions to common problems.
-  - Code examples are general and exportable.
-- [ ] Is the content consistent?
-  - Styling and formatting align with existing documentation.
-  - Consistent use of punctuation and case.
+## For new content
 
-**Note:** For additional guidelines on writing good documentation, check out [What Makes Documentation Good](https://cookbook.openai.com/what_makes_documentation_good).
+When contributing new content, read through our [contribution guidelines](https://github.com/openai/openai-cookbook/blob/main/CONTRIBUTING.md), and mark the following action items as completed:
+
+- [ ] I have added a new entry in [registry.yaml](https://github.com/openai/openai-cookbook/blob/main/registry.yaml) (and, optionally, in [authors.yaml](https://github.com/openai/openai-cookbook/blob/main/authors.yaml)) so that my content renders on the cookbook website.
+- [ ] I have conducted a self-review of my content based on the [contribution guidelines](https://github.com/openai/openai-cookbook/blob/main/CONTRIBUTING.md#rubric):
+  - [ ] Relevance: This content is related to building with OpenAI technologies and is useful to others.
+  - [ ] Uniqueness: I have searched for related examples in the OpenAI Cookbook, and verified that my content offers new insights or unique information compared to existing documentation.
+  - [ ] Spelling and Grammar: I have checked for spelling or grammatical mistakes.
+  - [ ] Clarity: I have done a final read-through and verified that my submission is well-organized and easy to understand.
+  - [ ] Correctness: The information I include is correct and all of my code executes successfully.
+  - [ ] Completeness: I have explained everything fully, including all necessary references and citations.
+
+We will rate each of these areas on a scale from 1 to 4, and will only accept contributions that score 3 or higher on all areas. Refer to our [contribution guidelines](https://github.com/openai/openai-cookbook/blob/main/CONTRIBUTING.md) for more details.
